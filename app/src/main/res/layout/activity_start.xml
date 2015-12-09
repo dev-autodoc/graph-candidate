@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtVwWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="TODO TEXT"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnSolve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Solve" />
+
+    <Button
+        android:id="@+id/btnAnew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Anew" />
+
+    <ru.autodoc.autodocstore.view.StubView
+        android:id="@+id/stbVw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
