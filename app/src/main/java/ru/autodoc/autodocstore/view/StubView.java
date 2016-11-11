@@ -13,7 +13,7 @@ import ru.autodoc.autodocstore.model.Node;
 import ru.autodoc.autodocstore.model.Way;
 
 /**
- * Created by kochetkov.a on 08.12.2015........
+ * Created by kochetkov.a on 08.12.2015.........
  */
 public class StubView extends View {
     private List<Node> mNodes;
